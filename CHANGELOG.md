@@ -6,7 +6,7 @@ The format of this change log follows the advice given at [Keep a CHANGELOG](htt
 
 ## [Unreleased]
 ### Added
-- `moodle` directory was synced with master branch, post v2.3.2.  So basically preview of v2.3.3.
-  This version is needed as it is compatible with CodeSniffer 2 or later.
+- `moodle` and `PHPCompatibility` directories were synced with master branch, post v2.3.2.  So basically preview
+  of v2.3.3.  This version is needed as it is compatible with CodeSniffer 2 or later.
 
 [Unreleased]: https://github.com/moodlerooms/moodle-coding-standard/commits/master

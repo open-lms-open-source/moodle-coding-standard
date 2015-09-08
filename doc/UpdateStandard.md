@@ -7,7 +7,7 @@ Then issue the following commands:
 ```
 cd /path/to/root/of/this/project
 bin/update-standard
-... Review changes to moodle directory
+... Review changes to moodle and PHPCompatibility directories
 git commit
 ```
 
