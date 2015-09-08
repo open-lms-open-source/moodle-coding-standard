@@ -1,7 +1,7 @@
 # Introduction
 
-This project is simply a way to package up and distribute the Moodle Coding Standard which is defined in this project:
-[moodle-local_codechecker](https://github.com/moodlehq/moodle-local_codechecker)
+This project is simply a way to package up and distribute the Moodle Coding Standard which is defined in the
+following project: [moodle-local_codechecker](https://github.com/moodlehq/moodle-local_codechecker)
 
 This project does not attempt to do anything else.  If there are problems with the standard, then the problems should
 be addressed in the `moodle-local_codechecker` project.  Once the problem is fixed, it can be synced from
