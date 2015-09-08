@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -e
+
+if [ -d "moodle" ]; then
+    rm -rf moodle
+fi
+
+if [ -d "moodle-local_codechecker" ]; then
+    rm -rf moodle-local_codechecker
+fi
+
+# Right now we are syncing on master - update this command once we switch to tags again.
+git clone https://github.com/moodlehq/moodle-local_codechecker.git
+
+cp -R moodle-local_codechecker/moodle moodle
+
+# Tests can only be ran in Moodle, no need to add them.
+rm -rf moodle/tests
+
+git add -A moodle
+
+# Cleanup.
+if [ -d "moodle-local_codechecker" ]; then
+    rm -rf moodle-local_codechecker
+fi
+
+echo "The 'moodle' directory is ready to be reviewed and committed";
