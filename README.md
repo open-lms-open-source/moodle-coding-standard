@@ -7,6 +7,10 @@ This project does not attempt to do anything else.  If there are problems with t
 be addressed in the `moodle-local_codechecker` project.  Once the problem is fixed, it can be synced from
 `moodle-local_codechecker` into this project.
 
+[![Latest Stable Version](https://poser.pugx.org/moodlerooms/moodle-coding-standard/v/stable)](https://packagist.org/packages/moodlerooms/moodle-coding-standard)
+[![Total Downloads](https://poser.pugx.org/moodlerooms/moodle-coding-standard/downloads)](https://packagist.org/packages/moodlerooms/moodle-coding-standard)
+[![License](https://poser.pugx.org/moodlerooms/moodle-coding-standard/license)](https://packagist.org/packages/moodlerooms/moodle-coding-standard)
+
 # Install
 
 Just add it to your project's `composer.json` file (`--dev` is optional based on your needs):
