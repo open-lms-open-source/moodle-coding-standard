@@ -9,6 +9,6 @@
   "license": "GPL-3.0",
   "require": {
     "php": ">=5.4.0",
-    "squizlabs/php_codesniffer": "^2"
+    "squizlabs/php_codesniffer": "^2.5.1"
   }
 }
