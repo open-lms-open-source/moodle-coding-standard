@@ -8,8 +8,13 @@ The format of this change log follows the advice given at [Keep a CHANGELOG](htt
 
 No unreleased changes.
 
+## [2.0.1] - 2016-03-14
+### Changed
+- Updated sniffs to Code Checker v2.5.2.
+- Updated PHP_CodeSniffer to `dev-master#8c5d176`.  This is the version used by Code Checker.
+
 ## [2.0.0] - 2016-02-02
-## Changed
+### Changed
 - Synced standards with Eloy's 251 branch.  This has compatibility with PHP_CodeSniffer 2.5.1 along with a host of
   other fixes and improvements. See [CONTRIB-5732](https://tracker.moodle.org/browse/CONTRIB-5732) for details.
 - Updated dependency on PHP_CodeSniffer to 2.5.1 to match supported version in code checker.
@@ -22,5 +27,6 @@ No unreleased changes.
 - `moodle` and `PHPCompatibility` directories were synced with master branch, post v2.3.2.  So basically preview
   of v2.3.3.  This version is needed as it is compatible with CodeSniffer 2 or later.
 
-[Unreleased]: https://github.com/moodlerooms/moodle-coding-standard/compare/2.0.0...master
+[Unreleased]: https://github.com/moodlerooms/moodle-coding-standard/compare/2.0.1...master
+[2.0.1]: https://github.com/moodlerooms/moodle-plugin-ci/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/moodlerooms/moodle-plugin-ci/compare/1.0.0...2.0.0
