@@ -6,7 +6,7 @@ Then issue the following commands:
 
 ```
 cd /path/to/root/of/this/project
-bin/update-standard
+bin/update-standard BRANCH_OR_TAG
 ... Review changes to moodle and PHPCompatibility directories
 git commit
 ```

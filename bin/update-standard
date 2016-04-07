@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+# Usage (execute in root of project):
+#     bin/update-standard v2.5.2
+
 set -e
 
 if [ -d "moodle" ]; then
@@ -13,8 +17,7 @@ if [ -d "moodle-local_codechecker" ]; then
     rm -rf moodle-local_codechecker
 fi
 
-# Right now we are syncing on master - update this command once we switch to tags again.
-git clone https://github.com/moodlehq/moodle-local_codechecker.git
+git clone --branch $1 https://github.com/moodlehq/moodle-local_codechecker.git
 
 cp -R moodle-local_codechecker/moodle moodle
 cp -R moodle-local_codechecker/PHPCompatibility PHPCompatibility
